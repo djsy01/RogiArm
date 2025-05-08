@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-      <p>© 2025 OBED Worship. All rights reserved.</p>
+      <p>© 2025 RogiArm. All rights reserved.</p>
     </footer>
   );
 }

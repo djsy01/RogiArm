@@ -1,29 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import './Home.css';
+import React from 'react';
 
-const images = [
-  { src: "/assets/image/Team.JPG", alt: '팀 1' }
-];
-
-function Home() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-    }, 5000);
-    return () => clearInterval(intervalId);
-  }, []);
-
+const Home = () => {
   return (
-    <div className="team-gallery">
-      <div className="Team-img">
-        <a href="/">
-          <img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt} />
-        </a>
-      </div>
+    <div>
+      <h2>홈 페이지</h2>
+      <p>이곳은 홈 페이지입니다.</p>
     </div>
   );
-}
+};
 
 export default Home;

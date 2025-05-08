@@ -27,16 +27,3 @@ header p {
   font-size: 14px;
   color: #ff6;
 }
-
-.music-player-container {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-/* 추가적으로 MusicPlayer에 스타일을 줄 수도 있습니다. */
-.music-player {
-  /* 플레이어의 크기와 스타일을 조정 */
-  width: 150px; /* 예시 */
-  height: 50px; /* 예시 */
-}
