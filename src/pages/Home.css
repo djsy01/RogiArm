@@ -1,0 +1,102 @@
+.team-section {
+  padding: 50px 0;
+  padding-bottom: 170px;
+  background-color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.team-gallery {
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team-img img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.team-description {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-description .meter {
+  background-color: #6c5ce7;
+  padding: 10px 8px;
+  border-radius: 20px;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: bold;
+  border-left: 5px solid #0118db;
+  line-height: 1.6;
+  color: #f3f3f3;
+  display: inline-block;
+  margin: 4px 6px;
+}
+
+/* ▼▼▼ target 슬라이더 섹션 ▼▼▼ */
+.target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.arrow {
+  font-size: 2rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #ffde59;
+  color: #000;
+  border-color: #ffde59;
+}
+
+.target-content {
+  width: 600px;           /* 고정 너비 */
+  height: 500px;          /* 고정 높이 */
+  background-color: #444;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.Target {
+  width: 100%;
+  height: auto;          /* 이미지 영역 고정 */
+  object-fit: cover;      /* 잘리는 걸 감수하고 영역을 꽉 채움 */
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.target-description {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
