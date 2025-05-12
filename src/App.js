@@ -7,6 +7,7 @@ import Footer from './components/Footer'; // 푸터 컴포넌트
 
 import Home from './pages/Home'; // 홈 페이지
 import Control from './pages/Control'; // 팀 소개 페이지
+import Data from './pages/Data'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} /> {/* 홈 페이지 */}
-          <Route path="/team" element={<Control />} /> {/* 팀 소개 페이지 */}
+          <Route path="/Control" element={<Control />} /> {/* 팀 소개 페이지 */}
+          <Route path="/Data" element={<Data />} /> {/*데이터 페이지 */}
         </Routes>
       </main>
 
