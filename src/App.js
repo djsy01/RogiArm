@@ -18,8 +18,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} /> {/* 홈 페이지 */}
-          <Route path="/Control" element={<Control />} /> {/* 팀 소개 페이지 */}
-          <Route path="/Data" element={<Data />} /> {/*데이터 페이지 */}
+          <Route path="/Control" element={<Control />} /> {/* 컨트롤 페이지 */}
+          <Route path="/Data" element={<Data />} /> {/* 데이터 페이지 */}
         </Routes>
       </main>
 
