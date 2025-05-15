@@ -21,7 +21,7 @@ const Control = () => {
   useEffect(() => {
     const interval = setInterval(async () => {
       try {
-        const res = await axios.get('http://localhost:3001/radar');
+        const res = await axios.get('http://localhost:포트번호/radar');
         setRadarData(res.data.distance); // 숫자 형식으로 저장
       } catch (err) {
         setRadarData(null); // 읽기 실패 처리
@@ -101,7 +101,7 @@ const Control = () => {
         <div className="camera-box">
           <h2>📷 우노 카메라</h2>
           <img
-            src="http://localhost:8080"
+            src="http://localhost:/포트번호"
             alt="카메라 영상"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
